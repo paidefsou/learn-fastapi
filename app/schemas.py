@@ -1,6 +1,5 @@
 import email
 from os import access
-from tkinter import E
 from turtle import update
 from pydantic import BaseModel, EmailStr
 from datetime import datetime
