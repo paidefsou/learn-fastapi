@@ -1,5 +1,3 @@
-from os import stat
-import re
 from fastapi import Body, FastAPI, Response, status, HTTPException, Depends, APIRouter
 from sqlalchemy.orm import Session
 from ..import schemas, database, models, oauth2

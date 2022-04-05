@@ -1,6 +1,3 @@
-import email
-from os import access
-from turtle import update
 from pydantic import BaseModel, EmailStr
 from datetime import datetime
 from typing import Optional

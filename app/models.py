@@ -1,6 +1,4 @@
-import email
-from click import password_option
-from sqlalchemy import  Column, ForeignKey, Integer, String, Boolean, null
+from sqlalchemy import  Column, ForeignKey, Integer, String, Boolean
 from sqlalchemy.sql.expression import text
 from sqlalchemy.sql.sqltypes import TIMESTAMP
 from sqlalchemy.orm import relationship
